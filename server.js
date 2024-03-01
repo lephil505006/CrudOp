@@ -12,6 +12,7 @@ const pool = mysql.createPool({
   user: "root",
   password: "1234",
   database: "students",
+  port: 3306,
 });
 
 // Database Connection Error Handling
